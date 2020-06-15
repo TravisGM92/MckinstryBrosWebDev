@@ -1,22 +1,59 @@
 nav {
-  margin-bottom: 20px;
+
 }
 
 h1 {
   color: black;
   text-align: center;
 }
-
+h3{
+  color: green;
+  text-align: center;
+}
 
 table.floating {
   table-layout: auto;
-  width: 95%;
+  width: 70%;
   background-color: white;
   box-shadow: 0 0 10px #a9a9a9;
   border-radius: 5px;
-  margin: auto;
+  margin-right: 20px;
+  margin-top: 60px;
+  margin-bottom: auto;
+  float: right;
 }
 
-table.floating th {
+
+table.floatings1 {
   padding: 10px;
+  width: auto;
+  margin-left: 20px;
+
+
+}
+
+table.second-table {
+  table-layout: auto;
+  width: 70%;
+  background-color: white;
+  box-shadow: 0 0 10px #a9a9a9;
+  border-radius: 5px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  float: right;
+}
+
+#testImage{
+  left: 0;
+  width: 25%;
+  height: auto;
+  position: fixed;
+  margin-top: 61px;
+  top: 0;
+}
+
+table.last {
+    position: fixed;
+    margin-bottom: 200px;
 }
