@@ -91,3 +91,17 @@ figure figcaption {
     border: 2.5px solid grey;
     text-align: center;
 }
+
+table.footer-table{
+
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 0 8px #a9a9a9;
+  border-radius: 8px;
+  bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  position: fixed;
+  font-size: 15px;
+}
