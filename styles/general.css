@@ -11,6 +11,10 @@ h3{
   text-align: center;
 }
 
+third-table h3{
+  color: blue;
+  text-align: center;
+}
 
 
 table.floating {
