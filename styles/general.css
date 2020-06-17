@@ -87,10 +87,7 @@ figure img {
     vertical-align: top;
     width: 100%;
 }
-figure figcaption {
-    border: 2.5px solid grey;
-    text-align: center;
-}
+
 
 table.footer-table{
 
@@ -104,4 +101,10 @@ table.footer-table{
   text-align: center;
   position: fixed;
   font-size: 15px;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  text-align: center;
 }
