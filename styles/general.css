@@ -1,114 +1,165 @@
+/* desktop view */
+@media (min-width : 500px){
+  body {
+    background-color: white;
+  }
+  h1 {
+    color: black;
+    text-align: center;
+  }
+  h3{
+    color: green;
+    text-align: center;
+  }
 
-h1 {
-  color: black;
-  text-align: center;
-}
-h3{
-  color: green;
-  text-align: center;
-}
-
-table.floating {
-  table-layout: auto;
-  width: 70%;
-  background-color: white;
-  box-shadow: 0 0 10px #a9a9a9;
-  border-radius: 5px;
-  margin-right: 20px;
-  margin-top: 80px;
-  margin-bottom: 10px;
-  float: right;
-}
-
-
-table.floatings1 {
-  padding: 10px;
-  width: auto;
-  margin-left: 20px;
-
-}
-
-table.second-table {
-  table-layout: auto;
-  width: 70%;
-  background-color: white;
-  box-shadow: 0 0 10px #a9a9a9;
-  border-radius: 5px;
-  margin-right: 20px;
-  margin-top: 10px;
-  float: right;
-  margin-bottom: 10px;
-}
-
-table.third-table {
-  table-layout: auto;
-  width: 70%;
-  background-color: white;
-  box-shadow: 0 0 10px #a9a9a9;
-  border-radius: 5px;
-  margin-right: 20px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  float: right;
-}
-
-table.fourth-table{
-  table-layout: auto;
-  width: 70%;
-  background-color: white;
-  box-shadow: 0 0 10px #a9a9a9;
-  border-radius: 5px;
-  margin-right: 20px;
-  margin-top: 10px;
-  margin-bottom: 40px;
-  float: right;
-}
-
-
-figure {
-    display: inline-block;
-    border: 4px solid black;
+  table.floating {
+    table-layout: auto;
+    width: 70%;
+    background-color: white;
+    box-shadow: 0 0 10px #a9a9a9;
     border-radius: 5px;
-    margin: 20px; /* adjust as needed */
-    width: 20%;
-    box-shadow: 0 0 15px #a9a9a9;
-    position: fixed;
-}
-figure img {
-    vertical-align: top;
+    margin-right: 20px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    float: right;
+  }
+
+
+  table.second-table {
+    table-layout: auto;
+    width: 70%;
+    background-color: white;
+    box-shadow: 0 0 10px #a9a9a9;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-top: 10px;
+    float: right;
+    margin-bottom: 10px;
+  }
+
+  table.third-table {
+    table-layout: auto;
+    width: 70%;
+    background-color: white;
+    box-shadow: 0 0 10px #a9a9a9;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: right;
+  }
+
+  table.fourth-table{
+    table-layout: auto;
+    width: 70%;
+    background-color: white;
+    box-shadow: 0 0 10px #a9a9a9;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    float: right;
+  }
+
+
+  figure {
+      display: inline-block;
+      border: 4px solid black;
+      border-radius: 5px;
+      margin: 20px; /* adjust as needed */
+      width: 20%;
+      box-shadow: 0 0 15px #a9a9a9;
+      position: fixed;
+      background-color: white;
+  }
+
+  figure img {
+      vertical-align: top;
+      width: 100%;
+  }
+
+
+  table.footer-table{
+
     width: 100%;
+    background-color: white;
+    box-shadow: 0 0 8px #a9a9a9;
+    border-radius: 8px;
+    bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: fixed;
+    font-size: 13px;
+  }
+
+  .fa:hover {
+    opacity: 1;
+    color: white;
+    text-decoration-line: none;
+  }
+
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+
+  }
+
+  .fa {
+    padding: 10px;
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    align-self: center;
+    margin: 10px;
+    margin-left: 5%;
+  }
+/* end desktop view */
+
 }
+/* mobile view start */
+@media (max-width : 500px){
+  body {
+    background-color: black;
+  }
+  table.floating {
+    table-layout: auto;
+    width: 90%;
+    background-color: white;
+    box-shadow: 0 0 10px #ffffff;
+    border-radius: 5px;
+
+    margin-top: 70px;
+    margin-bottom: 10px;
+  }
+  table.second-table {
+    table-layout: auto;
+    width: 90%;
+    background-color: white;
+    box-shadow: 0 0 10px #a9a9a9;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  table.third-table {
+    table-layout: auto;
+    width: 90%;
+    background-color: white;
+    box-shadow: 0 0 10px #ffffff;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 
 
-table.footer-table{
-
-  width: 100%;
-  background-color: white;
-  box-shadow: 0 0 8px #a9a9a9;
-  border-radius: 8px;
-  bottom: 0px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  position: fixed;
-  font-size: 13px;
 }
-
-.fa:hover {
-  opacity: 1;
-  color: white;
-  text-decoration-line: none;
-}
-
-
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-}
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-  font-size: 200px;
-}
+/* mobile view end */

@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="./styles/general.css">
   </head>
 
-  <nav class="navbar fixed-top navbar-light bg-light">
+<!-- simple nav bar design -->
+  <!-- <nav class="navbar fixed-top navbar-light bg-light">
     <a class="navbar-brand" href="#"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -40,16 +41,19 @@
       </ul>
 
     </div>
-  </nav>
+  </nav> -->
+  <!-- end of simple nav bar design -->
 
-
+<body>
 <div class="fixed-right">
  <table class="floating">
  <tr>
    <th><h1>Sample text</h1></th>
  </tr>
  <tr>
-   <th>This is some sample text
+   <th><ul class="nav-item active">
+     <a class="nav-link" href="">Home <span class="sr-only">(current)</span></a>
+   </ul>
      <br></br>
      <br></br>
      <br></br>
@@ -65,7 +69,9 @@
 <table class="second-table">
   <th><h3>Second table</h3></th>
   <tr>
-    <th>
+    <th>  <ul class="nav-item">
+        <a class="nav-link" href="./static/education.html">Education</a>
+      </ul>
   <br></br>
    <br></br>
    <br></br>
@@ -88,7 +94,9 @@
   <th><h2>Third table</h2></th>
 
   <tr>
-    <th>
+    <th>  <ul class="nav-item">
+        <a class="nav-link" href="./static/projects.html">Projects</a>
+      </ul>
   <br></br>
    <br></br>
    <br></br>
@@ -147,22 +155,6 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
-<style>
-
-.fa {
-  padding: 10px;
-  font-size: 25px;
-  width: 40px;
-  height: 50px;
-  text-align: center;
-  text-decoration: none;
-  align-self: center;
-  margin: 10px;
-  margin-left: 5%;
-}
-
-</style>
-
 
      <!-- TODO: Put info into footer on every page -->
 
@@ -174,6 +166,6 @@
     </tr>
 </div>
 </table>
-
+</body>
 
 </html>
