@@ -95,6 +95,7 @@
   }
 
 
+
   table.footer-table{
 
     width: 100%;
@@ -149,7 +150,6 @@
     margin-top: 190px;
     margin-left: 5%;
     margin-right: 5%;
-
     text-align: left;
   }
 
@@ -162,6 +162,21 @@
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 100px;
+  }
+
+  table.floating1-education img{
+    width: 20%;
+    margin-left: 5px;
+    vertical-align: middle;
+    margin-right: 20px;
+    margin-top: 20px;
+
+  }
+
+  table.floating1-education p{
+    color: black;
+    font-size: 30px;
+    text-decoration: underline;
   }
 /* end desktop view */
 
