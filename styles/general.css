@@ -1,4 +1,14 @@
 /* desktop view */
+#content-desktop {display: block;}
+#content-mobile {display: none;}
+
+@media screen and (max-width: 500px) {
+
+#content-desktop {display: none;}
+#content-mobile {display: block;}
+
+}
+
 @media (min-width : 500px){
   body {
     background-color: white;
@@ -8,8 +18,12 @@
     text-align: center;
   }
   h3{
-    color: green;
+    color: black;
     text-align: center;
+  }
+
+  first-header {
+    display: hide;
   }
 
   table.floating {
@@ -22,6 +36,8 @@
     margin-top: 70px;
     margin-bottom: 10px;
     float: right;
+    text-align: center;
+
   }
 
 
@@ -32,7 +48,7 @@
     box-shadow: 0 0 10px #a9a9a9;
     border-radius: 5px;
     margin-right: 20px;
-    margin-top: 10px;
+    margin-top: 70px;
     float: right;
     margin-bottom: 10px;
   }
@@ -131,20 +147,45 @@
   body {
     background-color: black;
   }
+
+  h1 {
+    color: white;
+    text-align: center;
+  }
+
+  h2 { text-align: center;
+      color: white;
+  }
+
+  h3{
+    color: white;
+    text-align: center;
+  }
+  table.floating1 {
+    table-layout: auto;
+    width: 90%;
+    background-color: #6b6b6b;
+    box-shadow: 0 0 10px #a9a9a9;
+    border-radius: 5px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    text-align: center;
+  }
   table.floating {
     table-layout: auto;
     width: 90%;
-    background-color: white;
+    background-color: #6b6b6b;
     box-shadow: 0 0 10px #ffffff;
     border-radius: 5px;
-
-    margin-top: 70px;
+    margin-top: 10px;
     margin-bottom: 10px;
+    text-align: right;
   }
   table.second-table {
     table-layout: auto;
     width: 90%;
-    background-color: white;
+    background-color: #6b6b6b;
     box-shadow: 0 0 10px #a9a9a9;
     border-radius: 5px;
     margin-top: 10px;
@@ -153,11 +194,35 @@
   table.third-table {
     table-layout: auto;
     width: 90%;
-    background-color: white;
+    background-color: #6b6b6b;
     box-shadow: 0 0 10px #ffffff;
     border-radius: 5px;
     margin-top: 10px;
     margin-bottom: 10px;
+  }
+
+  table.fourth-table {
+    table-layout: auto;
+    width: 90%;
+    background-color: #6b6b6b;
+    box-shadow: 0 0 10px #ffffff;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .da {
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    text-align: right;
+    text-decoration: none;
+    color: white;
+  }
+
+  .da:hover {
+    opacity: 1;
+    color: white;
+    text-decoration-line: underline;
   }
 
 
