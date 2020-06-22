@@ -173,17 +173,18 @@
     vertical-align: middle;
     margin-right: 20px;
     margin-top: 20px;
+    margin-bottom: 10px;
 
   }
 
   table.floating2-education img{
-
+    width: 30%;
     margin-left: 5px;
     vertical-align: middle;
     margin-right: 20px;
-    margin-top: 10px;
+    margin-top: 20px;
+    height: 30%;
     margin-bottom: 10px;
-
   }
 
   table.floating1-education p{
@@ -193,7 +194,7 @@
   }
 
   .button-projects1{
-    margin-left: 180px;
+    margin-left: 20%;
   }
   .button-blog1{
     margin-left: 70px;
@@ -201,7 +202,7 @@
   }
 
   .button-projects2{
-    margin-left: 200px;
+    margin-left: 20%;
   }
   .button-blog2{
     margin-left: 70px;
