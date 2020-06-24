@@ -14,11 +14,74 @@
     background-color: white;
   }
 
+  table.title-projects{
+    margin-left: 25%;
+
+  }
+
+
+  table.title-projects h1{
+    margin-top: 90px;
+    font-size: 40px;
+    text-align: left;
+  }
+
+  table.floating11-education{
+    table-layout: auto;
+    width: 90%;
+    background-color: white;
+    box-shadow: 0 0 10px #a9a9a9;
+    border-radius: 5px;
+    margin-top: 0px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: left;
+    font-size: 15px;
+  }
+
+  table.floating11-education h4{
+    margin-left: 210px;
+  }
+
+  table.floating11-education h5{
+    margin-left: 200px;
+      font-size: 18px;
+  }
+
+
+  table.floating12-education h4{
+    margin-left: 210px;
+  }
+  table.floating12-education h5{
+    margin-left: 220px;
+    font-size: 18px;
+  }
+
+  table.floating12-education{
+    table-layout: auto;
+    width: 90%;
+    background-color: white;
+    box-shadow: 0 0 10px #a9a9a9;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: left;
+    font-size: 15px;
+  }
+
+/* first button, second table for Projects page */
+  .button-projects12{
+    margin-left: 250px;
+    margin-bottom: 10px;
+  }
+
 
   h1 {
     color: black;
     text-align: center;
   }
+
   h3{
     color: black;
     text-align: left;
@@ -197,10 +260,18 @@
     text-decoration: underline;
   }
 
-  .button-projects1{
+/* projects page, first button for first table */
+  .btn.btn-outline-primary.button-projects11{
+      margin: 0 auto;
+      margin-left: 250px;
+    }
+
+/* Education page, projects button */
+.btn.btn-outline-primary.button-projects1{
     margin: 0 auto;
     margin-left: 60px;
   }
+
   .button-blog1{
     margin-left: 70px;
     margin-top: 0px;
@@ -226,7 +297,11 @@
     font-size: 13px;
   }
 
-  ul{
+  table.floating1-education ul{
+    list-style-type: none;
+  }
+
+  table.floating2-education ul{
     list-style-type: none;
   }
   .navbar-header-menu {
