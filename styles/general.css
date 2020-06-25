@@ -326,11 +326,15 @@
     float: left;
 }
 
-  .textbox {
-      margin: 30px;
-  }
+/* index page, top text box */
+.textbox {
+  margin: 30px;
+}
 
-/* end desktop view */
+/* !!!!! end desktop view !!!!!*/
+
+
+
 
 }
 /* mobile view start */
