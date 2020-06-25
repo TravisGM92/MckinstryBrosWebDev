@@ -16,7 +16,6 @@
 
   table.title-projects{
     margin-left: 25%;
-
   }
 
 
@@ -212,7 +211,8 @@
     margin-left: 5%;
   }
 
-  table.floating1-education{
+/* box layout for John on education page */
+  table.john-education-box{
     table-layout: auto;
     width: 90%;
     background-color: white;
@@ -224,7 +224,8 @@
     text-align: left;
   }
 
-  table.floating2-education{
+/* box layout for Travis on education page */
+  table.travis-education-box{
     table-layout: auto;
     width: 90%;
     background-color: white;
@@ -235,8 +236,8 @@
     margin-top: 50px;
 
   }
-
-  table.floating1-education img{
+/* image for John's box on education page */
+  table.john-education-box img{
     margin-left: 5px;
     vertical-align: middle;
     margin-right: 20px;
@@ -245,7 +246,8 @@
 
   }
 
-  table.floating2-education img{
+/* image for Travis' box on education page */
+  table.travis-education-box img{
     margin-left: 5px;
     vertical-align: middle;
     margin-right: 20px;
@@ -254,7 +256,8 @@
     margin-bottom: 10px;
   }
 
-  table.floating1-education p{
+/* title for John's education box */
+  table.john-education-box p{
     color: black;
     font-size: 30px;
     text-decoration: underline;
@@ -286,24 +289,26 @@
     margin-top: 0px;
   }
 
-
-  table.floating2-education p{
+/* title for Travis' education box */
+  table.travis-education-box p{
     color: black;
     font-size: 30px;
     text-decoration: underline;
   }
 
-  table.floating2-education ul{
+/* font inside box (not title) for Travis' education box */
+  table.travis-education-box ul{
     font-size: 13px;
-  }
-
-  table.floating1-education ul{
     list-style-type: none;
   }
 
-  table.floating2-education ul{
+/* font inside box (not title) for John's education box */
+  table.john-education-box ul{
     list-style-type: none;
+    font-size: 13px;
+
   }
+
   .navbar-header-menu {
     float: left;
 }
