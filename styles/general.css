@@ -52,7 +52,7 @@
     margin-left: 210px;
   }
   table.floating12-education h5{
-    margin-left: 220px;
+    margin-left: 290px;
     font-size: 18px;
   }
 
@@ -90,7 +90,7 @@
     display: hide;
   }
 
-  table.floating {
+  /* table.floating {
     table-layout: auto;
     width: 70%;
     background-color: white;
@@ -102,7 +102,7 @@
     float: right;
     text-align: center;
 
-  }
+  } */
 
 
   table.second-table {
@@ -114,6 +114,7 @@
     margin: 20px;
     margin-top: 70px;
     float: right;
+    margin-right: 60px;
   }
 
   table.third-table {
@@ -126,6 +127,7 @@
     margin-top: 10px;
     margin-bottom: 10px;
     float: right;
+    margin-right: 60px;
   }
 
   table.fourth-table{
@@ -138,6 +140,7 @@
     margin-top: 10px;
     margin-bottom: 100px;
     float: right;
+    margin-right: 60px;
   }
 
 
@@ -146,14 +149,48 @@
       display: inline-block;
       border-radius: 5px;
       margin: 20px; /* adjust as needed */
-      width: 20%;
+      width: 150px;
       box-shadow: 0 0 15px #a9a9a9;
       position: fixed;
       background-color: white;
   }
 
-  img {
-    width: 200px;
+/* second box on index page */
+  figure1 {
+      padding: 10px;
+      display: inline-block;
+      border-radius: 5px;
+      margin: 20px; /* adjust as needed */
+      width: 150px;
+      box-shadow: 0 0 15px #a9a9a9;
+      position: fixed;
+      background-color: white;
+      bottom: 35px;
+  }
+
+  figure2 {
+      margin: 20px; /* adjust as needed */
+      width: 150px;
+      box-shadow: 0 0 15px #a9a9a9;
+      position: fixed;
+      background-color: white;
+  }
+
+/* homepage image caption for first box image */
+  figcaption{
+    text-align: center;
+    font-size: 10px;
+  }
+
+
+  #John-home-page{
+    width: 95%;
+    height: auto;
+  }
+
+  #Travis-home-page{
+    width: 95%;
+    width: 95%;
     height: auto;
   }
 
@@ -167,7 +204,32 @@
     width: 50%;
   }
 
+  #brain-photo{
+    vertical-align: top;
+    width: 270px;
+    margin-top: 10px;
+  }
+
+  #John-education-page{
+    vertical-align: top;
+    width: 250px;
+    margin-top: 10px;
+  }
+
+  #Travis-education-page{
+    vertical-align: top;
+    width: 250px;
+    margin-top: 10px;
+  }
+
   figure img {
+      vertical-align: top;
+      width: 100%;
+      margin-top: 10px;
+  }
+
+/* second box image on left side of index page */
+  figure1 img {
       vertical-align: top;
       width: 100%;
       margin-top: 10px;
@@ -243,6 +305,7 @@
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 50px;
+    margin-bottom: 140px;
 
   }
 /* image for John's box on education page */
