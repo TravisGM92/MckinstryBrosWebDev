@@ -394,6 +394,31 @@
   margin: 30px;
 }
 
+iphy-embed{
+  float: left;
+}
+
+table.travis-project1{
+    table-layout: auto;
+    width: 90%;
+    background-color: white;
+    box-shadow: 0 0 10px #a9a9a9;
+    border-radius: 5px;
+    margin-top: 0px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+table.travis-project1 h4{
+  margin-left: 160px;
+  font-size: 25px;
+}
+
+table.travis-project1 ul{
+  margin-left: 140px;
+  font-size: 20px;
+}
+
 /* !!!!! end desktop view !!!!!*/
 
 
