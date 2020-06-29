@@ -15,14 +15,14 @@
   }
 
   table.title-projects{
-    margin-left: 25%;
+    margin-left: 35%;
   }
 
 
   table.title-projects h1{
     margin-top: 90px;
     font-size: 40px;
-    text-align: left;
+    text-align: center;
   }
 
   table.floating11-education{
@@ -38,11 +38,24 @@
     font-size: 15px;
   }
 
-  table.floating11-education h4{
+  table.floating11-projects{
+    height: 300px;
+    width: 560px;
+    background-color: white;
+    box-shadow: 0 0 10px #a9a9a9;
+    border-radius: 5px;
+    margin-top: 0px;
+    margin-left: 20px;
+    text-align: left;
+    font-size: 15px;
+    display: inline-block;
+  }
+
+  table.floating11-projects h4{
     margin-left: 210px;
   }
 
-  table.floating11-education h5{
+  table.floating11-projects h5{
     margin-left: 200px;
       font-size: 18px;
   }
@@ -56,17 +69,38 @@
     font-size: 18px;
   }
 
+  table.floating12-projects h4{
+    margin-left: 210px;
+  }
+  table.floating12-projects h5{
+    margin-left: 290px;
+    font-size: 18px;
+  }
+
   table.floating12-education{
     table-layout: auto;
-    width: 90%;
+    width: 600px;
     background-color: white;
     box-shadow: 0 0 10px #a9a9a9;
     border-radius: 5px;
     margin-top: 30px;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-right: 5px;
     text-align: left;
     font-size: 15px;
+  }
+
+  table.floating12-projects{
+    height: 300px;
+    width: 560px;
+    background-color: white;
+    box-shadow: 0 0 10px #a9a9a9;
+    border-radius: 5px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 20px;
+    text-align: left;
+    font-size: 15px;
+    display: inline-block;
   }
 
 /* first button, second table for Projects page */
@@ -392,6 +426,31 @@
 /* index page, top text box */
 .textbox {
   margin: 30px;
+}
+
+iphy-embed{
+  float: left;
+}
+
+table.travis-project1{
+    table-layout: auto;
+    width: 90%;
+    background-color: white;
+    box-shadow: 0 0 10px #a9a9a9;
+    border-radius: 5px;
+    margin-top: 0px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+table.travis-project1 h4{
+  margin-left: 160px;
+  font-size: 25px;
+}
+
+table.travis-project1 ul{
+  margin-left: 140px;
+  font-size: 20px;
 }
 
 /* !!!!! end desktop view !!!!!*/

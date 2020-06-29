@@ -24,9 +24,14 @@
           <li class="nav-item">
             <a class="nav-link" href="../static/education.html">Education</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../static/projects.html">Projects<span class="sr-only">(current)</span></a>
-          </li>
+          <li class="nav-item dropdown">
+           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             Projects
+           </a>
+           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+             <a class="dropdown-item" href="../static/johns-projects.html">John's Projects</a>
+             <a class="dropdown-item" href="../static/travis-projects.html">Travis' Projects</a>
+           </div>
           <li class="nav-item">
             <a class="nav-link" href="https://mckinstry-rd.blogspot.com/" target="_blank">Blog</a>
           </li>
@@ -37,18 +42,19 @@
     </nav>
 
 
-    <body>
-      <table class="title-projects">
-        <th><h1>
-         Machine Learning
-      </h1></th>
-      </div>
 
-       <table class="floating11-education">
-       <tr>
-       <tr>
-         <th>
-           <div> <!-- John's photo and table  -->
+    <table class="title-projects">
+      <th><h1>
+       Machine Learning
+    </h1></th>
+    </div>
+
+  <div style="float: left;">
+     <table class="floating11-projects">
+     <tr>
+     <tr>
+       <th>
+         <div> <!-- John's photo and table  -->
              <!--  image for table 1 -->
     <img id="brain-photo" src="../images/brain.jpg" ALIGN="left" alt="John's photo"/>
     <span style="line-height:30px;">
@@ -59,18 +65,19 @@
            <a href="file:///Users/travisgm/web_proj/static/projects.html" target="_blank" atl="link to projects by John"><button class="btn btn-outline-primary button-projects11"> Repo </button></a>
             <a href="https://mckinstry-rd.blogspot.com/" target="_blank" atl="link to blogs by John"><button class="btn btn-outline-dark button-blog1"> Blog </button></a>
          </div>
-           <br></br>
          </th>
        </tr>
      </table>
-      <!-- Travis' photo and table -->
-     <table class="floating12-education">
+   </div>
+      <!-- Second photo and table -->
+<div style="float: right;">
+     <table class="floating12-projects">
      <tr>
      <tr>
        <th>
          <div>
            <!-- Possible image for table 2 -->
-  <img src="../images/ll.png" ALIGN="left" alt="Travis' photo"/>
+  <img src="../images/ll.png" ALIGN="left" alt="lunar landing image"/>
 
   <span style="line-height:30px;">
     <h4>RL on Lunar Landing</h4> <h5><li>Blah blah blah</li><li> Blah blah blah</li></h5></ul>
@@ -81,7 +88,7 @@
        </th>
      </tr>
    </table>
-  </body>
+ </div>
 
        <!-- TODO: Put info into footer on every page -->
 <div class="footer-table">
