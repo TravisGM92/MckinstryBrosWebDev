@@ -9,7 +9,7 @@
 
 }
 
-@media (min-width : 1168px){
+@media (min-width : 1158px){
   body {
     background-color: white;
   }
@@ -49,6 +49,7 @@
     text-align: left;
     font-size: 15px;
     display: inline-block;
+    float: left;
   }
 
   table.floating11-projects h4{
@@ -101,6 +102,7 @@
     text-align: left;
     font-size: 15px;
     display: inline-block;
+    float: right;
   }
 
 /* first button, second table for Projects page */
@@ -456,9 +458,9 @@ table.travis-project1 ul{
 
 
 /* Where the table collapse feature starts on desktop */
-@media (max-width : 1168px){
+@media (max-width : 1158px){
   body {
-    background-color: pink;
+    background-color: white;
   }
 
   table.title-projects{
@@ -487,26 +489,48 @@ table.travis-project1 ul{
 
   table.floating11-projects{
     height: 300px;
-    width: 560px;
+    width: 95%;
     background-color: white;
     box-shadow: 0 0 10px #a9a9a9;
     border-radius: 5px;
     margin-top: 0px;
     margin-left: 20px;
+    margin-right: 10px
     text-align: left;
     font-size: 15px;
     display: inline-block;
+    float: none;
+  }
+  table.floating12-projects{
+    height: 300px;
+    width: 95%;
+    background-color: white;
+    box-shadow: 0 0 10px #a9a9a9;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 20px;
+    text-align: left;
+    font-size: 15px;
+    display: inline-block;
+    float: none;
   }
 
   table.floating11-projects h4{
-    margin-left: 210px;
+    margin-left: 290px;
   }
 
   table.floating11-projects h5{
-    margin-left: 200px;
+    margin-left: 260px;
       font-size: 18px;
   }
 
+  table.floating12-projects h4{
+    margin-left: 290px;
+  }
+  table.floating12-projects h5{
+    margin-left: 290px;
+    font-size: 18px;
+  }
 
   table.floating12-education h4{
     margin-left: 210px;
@@ -516,13 +540,6 @@ table.travis-project1 ul{
     font-size: 18px;
   }
 
-  table.floating12-projects h4{
-    margin-left: 210px;
-  }
-  table.floating12-projects h5{
-    margin-left: 290px;
-    font-size: 18px;
-  }
 
   table.floating12-education{
     table-layout: auto;
@@ -534,21 +551,9 @@ table.travis-project1 ul{
     margin-right: 5px;
     text-align: left;
     font-size: 15px;
+
   }
 
-  table.floating12-projects{
-    height: 300px;
-    width: 560px;
-    background-color: white;
-    box-shadow: 0 0 10px #a9a9a9;
-    border-radius: 5px;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 20px;
-    text-align: left;
-    font-size: 15px;
-    display: inline-block;
-  }
 
 /* first button, second table for Projects page */
   .button-projects12{
