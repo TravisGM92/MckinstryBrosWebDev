@@ -1406,6 +1406,23 @@ table.travis-project1 ul{
     background-color: white;
   }
 
+  #John-home-page1{
+    /* display: none; */
+    width: 30%;
+    height: auto;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px #a9a9a9;
+    border-radius: 5px;
+  }
+
+  #Travis-home-page1{
+    /* display: none; */
+    width: 30%;
+    height: auto;
+    box-shadow: 0 0 10px #a9a9a9;
+    border-radius: 5px;
+  }
+
   h1 {
     color: black;
     text-align: left;
@@ -1426,6 +1443,18 @@ table.travis-project1 ul{
   table.title-table-collapse{
 
   }
+
+  table.image-table{  /* this table is John and Travis'
+                      /* photos on hompage when collapsed*/
+    table-layout: auto;
+    background-color: white;
+    box-shadow: 0 0 10px #a9a9a9;
+    border-radius: 5px;
+    width: 92%;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
   table.floating1 {
     table-layout: auto;
     width: 90%;
