@@ -13,6 +13,9 @@
   body {
     background-color: white;
   }
+  table.image-table{
+    display: none;
+  }
 
   table.title-projects{
     margin-left: 35%;
@@ -139,21 +142,6 @@
     display: hide;
   }
 
-  /* table.floating {
-    table-layout: auto;
-    width: 70%;
-    background-color: white;
-    box-shadow: 0 0 10px #a9a9a9;
-    border-radius: 5px;
-    margin-right: 20px;
-    margin-top: 70px;
-    margin-bottom: 10px;
-    float: right;
-    text-align: center;
-
-  } */
-
-
   table.second-table {
     table-layout: auto;
     width: 70%;
@@ -194,6 +182,7 @@
 
 
   figure {
+      /* display: none; */
       padding: 10px;
       display: inline-block;
       border-radius: 5px;
@@ -229,6 +218,18 @@
   figcaption{
     text-align: center;
     font-size: 10px;
+  }
+  #John-home-page1{
+    display: none;
+    width: 30%;
+    height: auto;
+    margin-bottom: 30px;
+  }
+
+  #Travis-home-page1{
+    display: none;
+    width: 30%;
+    height: auto;
   }
 
 
@@ -678,6 +679,18 @@ table.travis-project1 ul{
     text-align: center;
     font-size: 10px;
   }
+  #John-home-page1{
+    display: none;
+    width: 30%;
+    height: auto;
+    margin-bottom: 30px;
+  }
+
+  #Travis-home-page1{
+    display: none;
+    width: 30%;
+    height: auto;
+  }
 
 
   #John-home-page{
@@ -1042,7 +1055,17 @@ table.travis-project1 ul{
     background-color: white;
     box-shadow: 0 0 10px #a9a9a9;
     border-radius: 5px;
+  }
 
+  table.image-table{  /* this table is John and Travis'
+                      /* photos on hompage when collapsed*/
+    table-layout: auto;
+    background-color: white;
+    box-shadow: 0 0 10px #a9a9a9;
+    border-radius: 5px;
+    width: 95%;
+    margin-left: 20px;
+    margin-top: 20px;
   }
 
   table.second-table {
@@ -1057,7 +1080,6 @@ table.travis-project1 ul{
   }
 
   table.third-table-collapse {
-    /* display: none; */
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
@@ -1073,14 +1095,12 @@ table.travis-project1 ul{
     /* background-color: white; */
     box-shadow: 0 0 10px #a9a9a9;
     border-radius: 5px;
-
     background-color: blue;
   }
 
   table.fourth-table-collapse{
     margin-top: 20px;
     margin-bottom: 20px;
-
     margin-left: 20px;
     margin-right: 20px;
     background-color: white;
@@ -1098,53 +1118,64 @@ table.travis-project1 ul{
     border-radius: 5px;
   }
 
-  figure {
-      padding: 10px;
-      display: inline-block;
-      border-radius: 5px;
-      margin: 20px;
-      width: 150px;
-      box-shadow: 0 0 15px #a9a9a9;
-      position: fixed;
-      background-color: white;
-  }
+figure {
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 20px; /* adjust as needed */
+    width: 150px;
+    box-shadow: 0 0 15px #a9a9a9;
+    position: fixed;
+    background-color: white;
+}
 
 /* second box on index page */
-  figure1 {
-      padding: 10px;
-      display: none;
-      border-radius: 5px;
-      margin: 20px; /* adjust as needed */
-      width: 150px;
-      box-shadow: 0 0 15px #a9a9a9;
-      position: fixed;
-      background-color: white;
-      bottom: 35px;
-  }
+figure1 {
+    padding: 10px;
+    display: none;
+    border-radius: 5px;
+    margin: 20px; /* adjust as needed */
+    width: 150px;
+    box-shadow: 0 0 15px #a9a9a9;
+    position: fixed;
+    background-color: white;
+    bottom: 35px;
+}
 
-  figure2 {
-      margin: 20px; /* adjust as needed */
-      width: 150px;
-      box-shadow: 0 0 15px #a9a9a9;
-      position: fixed;
-      background-color: white;
+figure2 {
+    display: none;
+    margin: 20px; /* adjust as needed */
+    width: 150px;
+    box-shadow: 0 0 15px #a9a9a9;
+    position: fixed;
+    background-color: white;
+}
+
+/* homepage image caption for first box image */
+  figcaption{
+    display: none;
+    text-align: center;
+    font-size: 10px;
   }
 
 /* homepage image caption for first box image */
   figcaption{
+    display: none;
     text-align: center;
     font-size: 10px;
   }
 
 
-  #John-home-page{
-    width: 95%;
+  #John-home-page1{
+    /* display: none; */
+    width: 30%;
     height: auto;
+    margin-bottom: 30px;
   }
 
-  #Travis-home-page{
-    width: 95%;
-    width: 95%;
+  #Travis-home-page1{
+    /* display: none; */
+    width: 30%;
     height: auto;
   }
 
@@ -1176,14 +1207,9 @@ table.travis-project1 ul{
     margin-top: 10px;
   }
 
-  figure img {
-      vertical-align: top;
-      width: 100%;
-      margin-top: 10px;
-  }
-
 /* second box image on left side of index page */
   figure1 img {
+      display: none;
       vertical-align: top;
       width: 100%;
       margin-top: 10px;
@@ -1192,7 +1218,6 @@ table.travis-project1 ul{
 
 
   table.footer-table{
-
     width: 100%;
     background-color: white;
     box-shadow: 0 0 8px #a9a9a9;
