@@ -1406,6 +1406,25 @@ table.travis-project1 ul{
     background-color: white;
   }
 
+  .button-homepage-first-table{
+    margin-top: 90px;
+    margin-left: 12px;
+    width: 95%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px #a9a9a9;
+    border-radius: 5px;
+    border-width: thin;
+    }
+    .button-homepage-second-table{
+      margin-top: 20px;
+      margin-left: 12px;
+      width: 95%;
+      background-color: rgb(255, 255, 255);
+      box-shadow: 0 0 10px #a9a9a9;
+      border-radius: 5px;
+      border-width: thin;
+      }
+
   #John-home-page1{
     /* display: none; */
     width: 30%;
@@ -1441,6 +1460,7 @@ table.travis-project1 ul{
   }
 
   table.title-table-collapse{
+
 
   }
 
