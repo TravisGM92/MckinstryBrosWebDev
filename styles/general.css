@@ -1120,7 +1120,7 @@ table.travis-project1 ul{
 
 figure {
     padding: 10px;
-    display: inline-block;
+    display: none;
     border-radius: 5px;
     margin: 20px; /* adjust as needed */
     width: 150px;
@@ -1130,19 +1130,8 @@ figure {
 }
 
 /* second box on index page */
-figure1 {
-    padding: 10px;
-    display: none;
-    border-radius: 5px;
-    margin: 20px; /* adjust as needed */
-    width: 150px;
-    box-shadow: 0 0 15px #a9a9a9;
-    position: fixed;
-    background-color: white;
-    bottom: 35px;
-}
 
-figure2 {
+figure1 {
     display: none;
     margin: 20px; /* adjust as needed */
     width: 150px;
@@ -1163,6 +1152,9 @@ figure2 {
     display: none;
     text-align: center;
     font-size: 10px;
+  }
+  #John-home-page{
+    display: none;
   }
 
 
@@ -1424,6 +1416,10 @@ table.travis-project1 ul{
       border-radius: 5px;
       border-width: thin;
       }
+
+  #John-home-page{
+    display: none;
+  }
 
   #John-home-page1{
     /* display: none; */
